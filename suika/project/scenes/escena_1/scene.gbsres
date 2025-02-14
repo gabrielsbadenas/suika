@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -22,7 +22,7 @@
         "variable": "0",
         "value": {
           "type": "number",
-          "value": 9
+          "value": 72
         },
         "__collapse": false
       },
@@ -34,10 +34,57 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 9
         }
       },
       "id": "d801a795-faca-4f87-9665-08b50efc65e7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "units": "pixels"
+      },
+      "id": "c26a4abc-5f0d-4985-b63f-74a5b87388cb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "62174005-c6f0-49d3-9b10-77c262dfcdfe"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "2156d9f2-eafe-401d-a61f-6b2aff3ee366"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "ad1e1901-1c44-4d9c-9585-a1f5c214d9a3"
     }
   ],
   "playerHit1Script": [],

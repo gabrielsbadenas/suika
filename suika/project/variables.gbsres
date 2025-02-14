@@ -15,6 +15,21 @@
       "id": "2",
       "name": "SubpixelX",
       "symbol": "var_subpixelx"
+    },
+    {
+      "id": "3",
+      "name": "Speed",
+      "symbol": "var_speed"
+    },
+    {
+      "id": "4",
+      "name": "DirectionIsRight",
+      "symbol": "var_directionisright"
+    },
+    {
+      "id": "5",
+      "name": "NoInput",
+      "symbol": "var_noinput"
     }
   ]
 }
