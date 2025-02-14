@@ -4,7 +4,7 @@
   "name": "flecha",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -12,7 +12,72 @@
   "collisionGroup": "",
   "script": [],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "5e90632d-cbd7-49ba-a468-7bf9380f3899"
+          }
+        ],
+        "false": []
+      },
+      "id": "f8fae9a9-b028-4f0c-864f-ae3f680ca4a6"
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "43cd7305-eca9-4f45-88fb-0b4495eaf21c"
+          }
+        ],
+        "false": []
+      },
+      "id": "eabbb869-6c25-4bb9-9e7b-bb00ca62572f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "299aa884-79c8-424a-8bb3-d626a0666698"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": []
