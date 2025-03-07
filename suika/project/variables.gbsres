@@ -30,6 +30,16 @@
       "id": "5",
       "name": "NoInput",
       "symbol": "var_noinput"
+    },
+    {
+      "id": "6",
+      "name": "Visible",
+      "symbol": "var_visible"
+    },
+    {
+      "id": "7",
+      "name": "FruitY",
+      "symbol": "var_fruity"
     }
   ]
 }

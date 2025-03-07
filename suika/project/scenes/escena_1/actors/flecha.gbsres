@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "e543209f-3a98-4a2c-8f3c-610c14149fcc",
-  "name": "",
+  "name": "Flecha",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -365,6 +365,58 @@
         "value": {
           "type": "number",
           "value": 1
+        }
+      }
+    },
+    "16a71f66-0ea7-44ea-89f6-af828772cedd": {
+      "id": "16a71f66-0ea7-44ea-89f6-af828772cedd",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__scriptTabs": "press"
+      }
+    },
+    "54fd1006-3d1e-4b09-b22d-3be50b2196dd": {
+      "id": "54fd1006-3d1e-4b09-b22d-3be50b2196dd",
+      "args": {
+        "actorId": "06804a8f-dd05-486a-9cad-e32ade3fa298"
+      }
+    },
+    "f9a4a3d8-c764-4f53-9650-4b97ecd14498": {
+      "id": "f9a4a3d8-c764-4f53-9650-4b97ecd14498",
+      "args": {
+        "actorId": "bf33dd60-395c-4f06-8135-5c92b51714f2"
+      }
+    },
+    "cce93e03-8567-4b3d-a585-ef33ac040af6": {
+      "id": "cce93e03-8567-4b3d-a585-ef33ac040af6",
+      "args": {
+        "actorId": "bf33dd60-395c-4f06-8135-5c92b51714f2",
+        "x": {
+          "type": "variable",
+          "value": "0"
+        },
+        "units": "pixels",
+        "y": {
+          "type": "variable",
+          "value": "1"
+        },
+        "moveType": "diagonal"
+      }
+    },
+    "48140957-e855-4d92-94c7-109f6c2e8f2e": {
+      "id": "48140957-e855-4d92-94c7-109f6c2e8f2e",
+      "args": {
+        "actorId": "bf33dd60-395c-4f06-8135-5c92b51714f2"
+      }
+    },
+    "1b3823fd-4640-4378-95d0-0b5ffa6eb0c3": {
+      "id": "1b3823fd-4640-4378-95d0-0b5ffa6eb0c3",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "true"
         }
       }
     }

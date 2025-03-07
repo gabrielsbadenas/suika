@@ -85,6 +85,35 @@
         }
       },
       "id": "ad1e1901-1c44-4d9c-9585-a1f5c214d9a3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "d740d31a-1efd-4d75-bc71-77947b1e58aa"
+    },
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "bf33dd60-395c-4f06-8135-5c92b51714f2",
+        "__comment": true
+      },
+      "id": "bf968fed-90a5-4b57-86a8-98b4b6309d24"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7a5f9a95-f786-49b1-93c7-87c5bfc25b3c"
     }
   ],
   "playerHit1Script": [],
